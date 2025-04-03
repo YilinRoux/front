@@ -1,0 +1,153 @@
+/* Nueva fuente */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+.App {
+  font-family: 'Poppins', sans-serif;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #121212;
+  color: #c4b7b7;
+}
+
+.App-header {
+  background-color: #6a0dad;
+  padding: 20px;
+  color: #fff;
+  border-radius: 12px;
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 26px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.upload-container {
+  background-color: #1f1f1f;
+  padding: 20px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 8px rgba(0, 255, 128, 0.3);
+}
+
+.upload-container button {
+  background-color: #00ff80;
+  color: #121212;
+  border: none;
+  padding: 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  transition: background 0.3s, transform 0.2s;
+}
+
+.upload-container button:hover {
+  background-color: #00cc66;
+  transform: scale(1.05);
+}
+
+.upload-container button:disabled {
+  background-color: #555;
+  cursor: not-allowed;
+}
+
+.error {
+  color: #ff4d4d;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.loading {
+  text-align: center;
+  padding: 20px;
+  font-size: 18px;
+  color: #00ff80;
+}
+
+.gallery {
+  background-color: #1f1f1f;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(138, 43, 226, 0.5);
+}
+
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 16px;
+  margin-top: 20px;
+}
+
+.image-card {
+  background-color: #2a2a2a;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+  padding: 15px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.image-card:hover {
+  transform: scale(1.05);
+}
+
+.img-preview {
+  object-fit: cover;
+  border-radius: 8px;
+  width: 100%;
+}
+
+.resolution-controls {
+  display: flex;
+  padding: 8px;
+  background: #252525;
+  border-radius: 8px;
+}
+
+.resolution-controls button {
+  flex: 1;
+  margin: 0 4px;
+  padding: 6px;
+  background: #ae3c3c;
+  border: 1px solid #888;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.resolution-controls button.active {
+  background: #6a0dad;
+  color: rgb(194, 34, 34);
+  border-color: #6a0dad;
+}
+
+.upload-button {
+  padding: 12px;
+  background: #00ff80;
+  color: #121212;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.3s, transform 0.2s;
+}
+
+.upload-button:hover {
+  background: #00cc66;
+  transform: scale(1.05);
+}
+
+.upload-button:disabled {
+  background: #555;
+  cursor: not-allowed;
+}
+
+.error-message {
+  color: #ff4d4d;
+  padding: 10px;
+  background: #330000;
+  border-left: 4px solid #ff4d4d;
+  margin-bottom: 12px;
+  font-weight: bold;
+}
