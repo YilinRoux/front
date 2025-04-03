@@ -14,7 +14,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>Galeria de Imagenes de MJLC-5B</h1>
+        <h1>Galeria diana</h1>
       </header>
       <main>
         <ImageUploader onUploadSuccess={handleUploadSuccess} />

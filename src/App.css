@@ -6,12 +6,12 @@
   max-width: 1200px;
   margin: 0 auto;
   padding: 20px;
-  background-color: #121212;
-  color: #c4b7b7;
+  background-color: #0a0e17;
+  color: #d6d6d6;
 }
 
 .App-header {
-  background-color: #6a0dad;
+  background-color: #0077b6;
   padding: 20px;
   color: #fff;
   border-radius: 12px;
@@ -23,16 +23,16 @@
 }
 
 .upload-container {
-  background-color: #1f1f1f;
+  background-color: #16213e;
   padding: 20px;
   border-radius: 12px;
   margin-bottom: 20px;
-  box-shadow: 0 4px 8px rgba(0, 255, 128, 0.3);
+  box-shadow: 0 4px 8px rgba(0, 187, 255, 0.3);
 }
 
 .upload-container button {
-  background-color: #00ff80;
-  color: #121212;
+  background-color: #00b4d8;
+  color: #ffffff;
   border: none;
   padding: 12px;
   border-radius: 6px;
@@ -43,7 +43,7 @@
 }
 
 .upload-container button:hover {
-  background-color: #00cc66;
+  background-color: #0096c7;
   transform: scale(1.05);
 }
 
@@ -53,7 +53,7 @@
 }
 
 .error {
-  color: #ff4d4d;
+  color: #ff6b6b;
   margin-top: 10px;
   font-weight: bold;
 }
@@ -62,14 +62,14 @@
   text-align: center;
   padding: 20px;
   font-size: 18px;
-  color: #00ff80;
+  color: #00b4d8;
 }
 
 .gallery {
-  background-color: #1f1f1f;
+  background-color: #16213e;
   padding: 20px;
   border-radius: 12px;
-  box-shadow: 0 4px 8px rgba(138, 43, 226, 0.5);
+  box-shadow: 0 4px 8px rgba(0, 187, 255, 0.5);
 }
 
 .image-grid {
@@ -80,7 +80,7 @@
 }
 
 .image-card {
-  background-color: #2a2a2a;
+  background-color: #1a1a2e;
   border-radius: 12px;
   overflow: hidden;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
@@ -101,7 +101,7 @@
 .resolution-controls {
   display: flex;
   padding: 8px;
-  background: #252525;
+  background: #222831;
   border-radius: 8px;
 }
 
@@ -109,7 +109,7 @@
   flex: 1;
   margin: 0 4px;
   padding: 6px;
-  background: #ae3c3c;
+  background: #ff6b6b;
   border: 1px solid #888;
   border-radius: 6px;
   cursor: pointer;
@@ -117,15 +117,15 @@
 }
 
 .resolution-controls button.active {
-  background: #6a0dad;
-  color: rgb(194, 34, 34);
-  border-color: #6a0dad;
+  background: #0077b6;
+  color: #ffffff;
+  border-color: #0077b6;
 }
 
 .upload-button {
   padding: 12px;
-  background: #00ff80;
-  color: #121212;
+  background: #00b4d8;
+  color: #ffffff;
   border: none;
   border-radius: 6px;
   cursor: pointer;
@@ -134,7 +134,7 @@
 }
 
 .upload-button:hover {
-  background: #00cc66;
+  background: #0096c7;
   transform: scale(1.05);
 }
 
@@ -144,10 +144,10 @@
 }
 
 .error-message {
-  color: #ff4d4d;
+  color: #ff6b6b;
   padding: 10px;
   background: #330000;
-  border-left: 4px solid #ff4d4d;
+  border-left: 4px solid #ff6b6b;
   margin-bottom: 12px;
   font-weight: bold;
 }
